@@ -6,16 +6,9 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <f:view>
+    Customers page <br/>
     <h:form>
-        <h:outputLabel value="Hello, world"/>
-        <h:outputText value="#{index.customerName}"/><br/>
+        <h:outputText value="#{customers.greeting}"/><br/>
     </h:form>
-
-    <br/>
-
-    <h:outputLink value="customers.xhtml" >
-        Go to next page
-    </h:outputLink>
-
 </f:view>
 </html>
