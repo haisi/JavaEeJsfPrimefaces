@@ -1,6 +1,6 @@
 package com.airhacks.presenter;
 
-import com.airhacks.business.CustomerService;
+import com.airhacks.business.customer.Customer.CustomerService;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
